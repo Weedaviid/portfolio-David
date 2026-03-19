@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dave's Dev Lobby | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="main-header">
+        <a href="#top" class="brand">Dave's Dev 🚀</a>
+        <nav>
+            <a href="#top">Home</a>
+            <a href="#story">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Let's Talk</a>
+        </nav>
+    </header>
+
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy glass-panel">
+                <div class="tag">Web • Desktop • Creative Direction</div>
+                <h1>
+                    Hello!! Welcome dear <span>visitor</span> to my lobby.
+                </h1>
+                <p>
+                    I'm Dave, your favorite dev and IT student :) If you're here, it's not a coincidence – you were probably looking for some art. Welcome to this museum of mine! Feel free to check out some of my projects. I build cool, immersive digital experiences that actually work. Sometimes they even amaze people!
+                </p>
+                <div class="cta-row">
+                    <a class="btn btn-primary" href="Curriculum Vitae – David Rajaonesy.pdf" target="_blank" rel="noreferrer">Download my CV</a>
+                    <a class="btn btn-secondary" href="#projects">Check my work</a>
+                </div>
+            </div>
+
+            <div class="hero-visual glass-panel">
+                <canvas id="webgl-canvas" aria-label="Decorative 3D scene"></canvas>
+                <div class="visual-caption">
+                    Real-time 3D magic: the object reacts to your scroll, just like those fancy Apple product pages 😄
+                </div>
+            </div>
+        </section>
+
+        <section class="story" id="story">
+            <article class="story-step reveal">
+                <h2>What I Actually Do</h2>
+                <p>
+                    I create digital experiences that tell a story. From sleek web apps to powerful desktop tools, I focus on building things people actually want to use. Each project is a journey, and every detail matters.
+                </p>
+            </article>
+
+            <article class="story-step reveal">
+                <h2>Clean Code, Chill Vibes</h2>
+                <p>
+                    Whether it's Python automation, full-stack web development, or utility applications, I bring a blend of technical excellence and creative flair. No unnecessarily complex stuff – just solid, elegant solutions wrapped in beautiful interfaces.
+                </p>
+            </article>
+
+            <article class="story-step reveal">
+                <h2>Let's Build Something Amazing Together</h2>
+                <p>
+                    I'm here to help bring your ideas to life. Got a concept? A problem to solve? Or just want to chat about web technology over coffee? Let's make it happen! My CRUD projects showcase my approach to building reliable, scalable applications.
+                </p>
+            </article>
+        </section>
+
+        <section id="projects" class="projects-wrap">
+            <div class="section-head">
+                <h2>My Work</h2>
+                <p>
+                    Here's a selection of projects I've worked on. Many of my CRUD projects (Create, Read, Update, Delete operations) are centralized in my dedicated repository for easy exploration and collaboration.
+                </p>
+            </div>
+            <div class="projects-grid" id="projects-grid"></div>
+        </section>
+
+        <section id="contact" class="contact glass-panel">
+            <h2>Let's Connect! 👋</h2>
+            <p>Email: <strong>rajaonesydavid62@gmail.com</strong></p>
+            <p>WhatsApp: <strong>+261 38 17 860 38</strong></p>
+            <p>CRUD Projects: <strong><a href="https://github.com/yourusername/CRUD" style="color: var(--accent); text-decoration: none;">github.com/yourusername/CRUD</a></strong></p>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Dave • Made with ☕ and a lot of 💙 • All rights reserved
+    </footer>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
